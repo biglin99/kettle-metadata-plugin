@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="MetaDataCheck" iconfile="icon.png" 
+description="Template Plugin" 
+tooltip="Only there for demonstration purposes" 
+category="Demon" classname="plugin.template.MetaDataPluginMeta">
+	<libraries>
+    	<library name="MetaDataPluginMeta.jar"/>
+	</libraries>
+   <localized_category>
+     <category locale="en_US">Demon</category>
+     <category locale="zh_CN">测试</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">MetaData Check</description>
+     <description locale="zh_CN">元数据校验</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">MetaData Check</tooltip>
+     <tooltip locale="zh_CN">元数据校验</tooltip>
+   </localized_tooltip>
+</plugin>
